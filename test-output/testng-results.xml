@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-07T22:22:04 IST" name="MiniProjectSuite" finished-at="2026-05-07T22:22:45 IST" duration-ms="41032">
+    <groups>
+    </groups>
+    <test started-at="2026-05-07T22:22:04 IST" name="ChromeTest" finished-at="2026-05-07T22:22:28 IST" duration-ms="24225">
+      <class name="tests.GadgetsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.GadgetsTest@62ddbd7e]" started-at="2026-05-07T22:22:04 IST" name="setUp" finished-at="2026-05-07T22:22:12 IST" duration-ms="8259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTopFiveBluetoothHeadphones()[pri:0, instance:tests.GadgetsTest@62ddbd7e]" started-at="2026-05-07T22:22:12 IST" name="getTopFiveBluetoothHeadphones" finished-at="2026-05-07T22:22:23 IST" duration-ms="10634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopFiveBluetoothHeadphones -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GadgetsTest@62ddbd7e]" started-at="2026-05-07T22:22:23 IST" name="tearDown" finished-at="2026-05-07T22:22:28 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GadgetsTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-05-07T22:22:28 IST" name="EdgeTest" finished-at="2026-05-07T22:22:45 IST" duration-ms="16775">
+      <class name="tests.GadgetsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.GadgetsTest@6f4a47c7]" started-at="2026-05-07T22:22:28 IST" name="setUp" finished-at="2026-05-07T22:22:32 IST" duration-ms="4099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTopFiveBluetoothHeadphones()[pri:0, instance:tests.GadgetsTest@6f4a47c7]" started-at="2026-05-07T22:22:32 IST" name="getTopFiveBluetoothHeadphones" finished-at="2026-05-07T22:22:40 IST" duration-ms="7636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopFiveBluetoothHeadphones -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GadgetsTest@6f4a47c7]" started-at="2026-05-07T22:22:40 IST" name="tearDown" finished-at="2026-05-07T22:22:45 IST" duration-ms="5033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GadgetsTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- MiniProjectSuite -->
+</testng-results>
