@@ -18,7 +18,7 @@ public class DriverFactory {
 			driver = new EdgeDriver();
 			System.out.println("Edge browser opened successfully");
 		} else {
-			throw new IllegalArgumentException("Unsupported browser");
+			throw new IllegalArgumentException("browser is unsupported");
 		}
 		
 		driver.manage().window().maximize();
